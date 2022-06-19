@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Business\\CyberSecurity.Business.csproj": {}
+  },
+  "projects": {
+    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Business\\CyberSecurity.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Business\\CyberSecurity.Business.csproj",
+        "projectName": "CyberSecurity.Business",
+        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Business\\CyberSecurity.Business.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\CyberSecurity.Repository.csproj": {
+                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\CyberSecurity.Repository.csproj"
+              },
+              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
+        "projectName": "CyberSecurity.DataAccessLayer",
+        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\CyberSecurity.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\CyberSecurity.Repository.csproj",
+        "projectName": "CyberSecurity.Repository",
+        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\CyberSecurity.Repository.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {
+                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj"
+              },
+              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
+        "projectName": "CyberSecurity.SharedCommon",
+        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

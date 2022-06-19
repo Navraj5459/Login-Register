@@ -1,0 +1,12 @@
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.deps.json
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.dll
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.csproj.AssemblyReference.cache
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.GeneratedMSBuildEditorConfig.editorconfig
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.AssemblyInfoInputs.cache
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.AssemblyInfo.cs
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.csproj.CoreCompileInputs.cache
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.dll
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\refint\CyberSecurity.SharedCommon.dll
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\ref\CyberSecurity.SharedCommon.dll

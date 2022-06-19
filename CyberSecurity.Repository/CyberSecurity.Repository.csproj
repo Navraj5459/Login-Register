@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CyberSecurity.DataAccessLayer\CyberSecurity.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\CyberSecurity.SharedCommon\CyberSecurity.SharedCommon.csproj" />
+  </ItemGroup>
+
+</Project>
