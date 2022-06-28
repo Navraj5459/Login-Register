@@ -1,0 +1,40 @@
+﻿@using CyberSecurity.SharedCommon.Common
+@using Newtonsoft.Json
+@using CyberSecurity.Library
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var code = "";
+    var msg = "";
+    var dbresponse = StaticData.GetSessionMessage();
+    if (dbresponse != null)
+    {
+        code = dbresponse.ErrorCode.ToString();
+        msg = dbresponse.Message;
+    }
+}
+
+<h1>Index</h1>
+
+@section scripts{
+    <script>
+    $(document).ready(function () {
+        if ("@code" != "" && "@msg" != "") {
+            if ("@code" == "1") {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                });
+            }
+            else {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'success',
+                    confirmButtonText: 'Ok'
+                });
+            }
+        }
+    });
+    </script>
+}

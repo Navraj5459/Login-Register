@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {}
+    "D:\\Sandeep\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {
+    "D:\\Sandeep\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
         "projectName": "CyberSecurity.DataAccessLayer",
-        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.DataAccessLayer\\obj\\",
+        "projectPath": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.DataAccessLayer\\CyberSecurity.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
-                "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj"
+              "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+                "projectPath": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj"
               }
             }
           }
@@ -68,21 +71,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
+    "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
+        "projectUniqueName": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
         "projectName": "CyberSecurity.SharedCommon",
-        "projectPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "G:\\Self Project\\Navraj Project\\CyberSecurity\\CyberSecurity\\CyberSecurity.SharedCommon\\obj\\",
+        "projectPath": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\CyberSecurity.SharedCommon.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\Sandeep\\CyberSecurity\\CyberSecurity.SharedCommon\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
         }
       }
     }

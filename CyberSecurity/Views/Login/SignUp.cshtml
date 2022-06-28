@@ -1,0 +1,116 @@
+﻿@model CyberSecurity.Models.SignUpModel
+@using CyberSecurity.SharedCommon.Common
+
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Shared/_LoginMasterLayout.cshtml";
+    var code = "";
+    var msg = "";
+    if (ViewData.ContainsKey("dbresponse"))
+    {
+        if (ViewData["dbresponse"] != null)
+        {
+            var dbresponse = (DbResponse)ViewData["dbresponse"];
+            if (dbresponse != null)
+            {
+                code = dbresponse.ErrorCode.ToString();
+                msg = dbresponse.Message;
+            }
+        }
+    }
+}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="login-wrap p-md-5">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-user-o"></span>
+                </div>
+                @using (Html.BeginForm("SignUp", "Login", FormMethod.Post, new { @id = "SignUp" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="captcha" id="captchaInput" />
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.UserName)
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control rounded-left", @placeholder = "Username", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.UserName)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.Password)
+                        @Html.TextBoxFor(x => x.Password, new { @type = "password", @class = "form-control rounded-left", @placeholder = "Password", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.Password)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.ConfirmPassword)
+                        @Html.TextBoxFor(x => x.ConfirmPassword, new { @type = "password", @class = "form-control rounded-left", @placeholder = "Confirm Password", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.ConfirmPassword)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.FullName)
+                        @Html.TextBoxFor(x => x.FullName, new { @class = "form-control rounded-left", @placeholder = "Full Name", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.FullName)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.Email)
+                        @Html.TextBoxFor(x => x.Email, new { @type = "email", @class = "form-control rounded-left", @placeholder = "Email", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.Email)
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.MobileNumber)
+                        @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control rounded-left", @placeholder = "Mobile Number", @required = "required" })
+                        @Html.ValidationMessageFor(x => x.MobileNumber)
+                    </div>
+                    <div class="input-group mb-3">
+
+                        <dnt-captcha asp-captcha-generator-max="999999"
+                                     asp-captcha-generator-min="111111"
+                                     asp-captcha-generator-language="English"
+                                     asp-captcha-generator-display-mode="ShowDigits"
+                                     asp-use-relative-urls="true"
+                                     asp-placeholder="Enter Captcha"
+                                     asp-validation-error-message="Please enter the security code."
+                                     asp-font-name="Tahoma"
+                                     asp-font-size="20"
+                                     asp-fore-color="#333333"
+                                     asp-back-color="#ccc"
+                                     asp-text-box-class="text-box form-control"
+                                     asp-text-box-template="<span class='input-group-prepend'><span class='form-group-text'></span></span>{0}"
+                                     asp-validation-message-class="text-danger"
+                                     asp-refresh-button-class="fas fa-redo btn-sm"
+                                     asp-use-noise="false" />
+
+
+
+                    </div>
+                    <div class="form-group row col-md-12">
+                        <button type="submit" class="btn btn-primary col-md-6" id="btnSubmit">SignUp</button>
+                        <button type="button" class="btn btn-primary col-md-6" id="btnBack">Back To Login</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/SignUp.js"></script>
+    <script>
+    $(document).ready(function () {
+        if ("@code" != "" && "@msg" != "") {
+            if ("@code" == "1") {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                });
+            }
+            else {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'success',
+                    confirmButtonText: 'Ok'
+                });
+            }
+        }
+    });
+    </script>
+}

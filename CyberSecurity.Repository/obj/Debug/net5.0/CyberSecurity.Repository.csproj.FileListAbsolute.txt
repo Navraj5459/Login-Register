@@ -15,3 +15,20 @@ G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Reposit
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\refint\CyberSecurity.Repository.dll
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.pdb
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\ref\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.Repository.deps.json
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\ref\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.Repository.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.SharedCommon.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\bin\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.csproj.AssemblyReference.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.AssemblyInfoInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.AssemblyInfo.cs
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.csproj.CoreCompileInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.csproj.CopyComplete
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\ref\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Repository\obj\Debug\net5.0\CyberSecurity.Repository.pdb

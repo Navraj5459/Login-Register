@@ -17,3 +17,22 @@ G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Busines
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\refint\CyberSecurity.Business.dll
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.pdb
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\ref\CyberSecurity.Business.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.Business.deps.json
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.Business.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\ref\CyberSecurity.Business.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.Business.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.Repository.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.SharedCommon.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.Repository.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.csproj.AssemblyReference.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.AssemblyInfoInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.AssemblyInfo.cs
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.csproj.CoreCompileInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.csproj.CopyComplete
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\ref\CyberSecurity.Business.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.Business\obj\Debug\net5.0\CyberSecurity.Business.pdb

@@ -13,3 +13,18 @@ G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.DataAcc
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\refint\CyberSecurity.DataAccessLayer.dll
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.pdb
 G:\Self Project\Navraj Project\CyberSecurity\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\ref\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.deps.json
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\ref\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\CyberSecurity.DataAccessLayer.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\CyberSecurity.SharedCommon.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\bin\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.csproj.AssemblyReference.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.AssemblyInfoInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.AssemblyInfo.cs
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.csproj.CopyComplete
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\ref\CyberSecurity.DataAccessLayer.dll
+D:\Sandeep\CyberSecurity\CyberSecurity.DataAccessLayer\obj\Debug\net5.0\CyberSecurity.DataAccessLayer.pdb

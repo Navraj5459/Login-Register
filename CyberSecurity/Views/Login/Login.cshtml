@@ -1,0 +1,93 @@
+﻿@using CyberSecurity.SharedCommon.Common
+@using Newtonsoft.Json
+@model CyberSecurity.Models.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LoginMasterLayout.cshtml";
+    var code = "";
+    var msg = "";
+    if (ViewData.ContainsKey("dbresponse"))
+    {
+        if(ViewData["dbresponse"] != null)
+        {
+            var str = (string)ViewData["dbresponse"];
+            var dbresponse = JsonConvert.DeserializeObject<DbResponse>(str);
+            if(dbresponse != null)
+            {
+                code = dbresponse.ErrorCode.ToString();
+                msg = dbresponse.Message;
+            }
+        }
+    }
+}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="login-wrap p-md-5">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-user-o"></span>
+                </div>
+                <h3 class="text-center mb-4">Have an account?</h3>
+                @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @id = "Login" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.TextBoxFor(x=>x.UserName,new{@class="form-control rounded-left", @placeholder="Username", @required="required"})
+                        @Html.ValidationMessageFor(x=>x.UserName)
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(x=>x.Password,new{@type="password", @class="form-control rounded-left", @placeholder="Password", @required="required"})
+                        @Html.ValidationMessageFor(x=>x.Password)
+                    </div>
+                    <div class="form-group d-md-flex">
+                        @*<div class="w-50">
+                            <label class="checkbox-wrap checkbox-primary">
+                                @Html.LabelFor(x=>x.RememberMe)
+                                @Html.CheckBoxFor(x=>x.RememberMe,new{  @checked="checked"})
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>*@
+                        <div class="w-50 text-md-right">
+                            <a href="#">Forgot Password</a>
+                        </div>
+                    </div>
+                    <div class="form-group d-md-flex">
+                        <div class="w-50 text-md-center">
+                            <a href="/Login/SignUp">Create New Account</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary rounded submit p-3 px-5" id="btnSubmit">Login</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>
+    $(document).ready(function () {
+        if ("@code" != "" && "@msg" != "") {
+            if ("@code" == "1") {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'error',
+                    confirmButtonText: 'Ok'
+                });
+            }
+            else {
+                Swal.fire({
+                    title: '@msg',
+                    icon: 'success',
+                    confirmButtonText: 'Ok'
+                });
+            }
+        }
+        $("#btnSubmit").on("click",function(){
+            if($("#Login").valid()){
+                $("#Login").submit();
+            }
+        });
+    });
+    </script>
+}
