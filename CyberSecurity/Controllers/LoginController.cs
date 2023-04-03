@@ -131,7 +131,7 @@ namespace CyberSecurity.Controllers
                     {
                         if (res.Result.ErrorCode.Equals(0))
                         {
-                            TempData["dbresponse"] = Json(res.Result);
+                            TempData["dbresponse"] = JsonConvert.SerializeObject(res.Result);
                             return RedirectToAction("Login", "Login");
                         }
                         else
@@ -153,7 +153,7 @@ namespace CyberSecurity.Controllers
             else
             {
                 var errors = string.Join(" ; ", ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage));
-                TempData["dbresponse"] = JsonConvert.SerializeObject(new DbResponse() { ErrorCode = 1, Message = errors });
+                ViewData["dbresponse"] = new DbResponse() { ErrorCode = 1, Message = errors };
                 return View(model);
             }
         }

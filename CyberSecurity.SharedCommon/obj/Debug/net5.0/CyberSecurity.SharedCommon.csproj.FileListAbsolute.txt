@@ -22,3 +22,15 @@ D:\Sandeep\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecuri
 D:\Sandeep\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.dll
 D:\Sandeep\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\ref\CyberSecurity.SharedCommon.dll
 D:\Sandeep\CyberSecurity\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.deps.json
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.dll
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\bin\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.csproj.AssemblyReference.cache
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.GeneratedMSBuildEditorConfig.editorconfig
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.AssemblyInfoInputs.cache
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.AssemblyInfo.cs
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.csproj.CoreCompileInputs.cache
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.dll
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\refint\CyberSecurity.SharedCommon.dll
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\CyberSecurity.SharedCommon.pdb
+E:\My\CyberSecurityLogin\Login-Register\CyberSecurity.SharedCommon\obj\Debug\net5.0\ref\CyberSecurity.SharedCommon.dll
