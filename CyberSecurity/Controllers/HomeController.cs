@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace CyberSecurity.Controllers
 {
-    [SessionExpiryFilter]
+    //[SessionExpiryFilter]
     public class HomeController : Controller
     {
         IUserBusiness _buss;
@@ -26,7 +26,7 @@ namespace CyberSecurity.Controllers
         }
         public ActionResult Index()
         {
-            StaticData.CheckSession();
+            //StaticData.CheckSession();
             return View();
         }
         public ActionResult ChangePassword()

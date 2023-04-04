@@ -26,14 +26,14 @@
             <div class="card-body">
                 <!-- Logo -->
                 <div class="app-brand justify-content-center">
-                    <p class="app-brand-link gap-2">
-                        <span class="app-brand-text demo text-body fw-bolder">Register</span>
+                    <p class="app-brand-link flex-column">
+                        <span class="app-brand-logo demo">
+                            <img src="~/image/logo/logo.jpg" alt=""/>
+                        </span>
+                        <span class="app-brand-text demo text-body fw-bolder">Registration</span>
                     </p>
                 </div>
                 <!-- /Logo -->
-                <h4 class="mb-2">Adventure starts here 🚀</h4>
-                <p class="mb-4">Make your app management easy and fun!</p>
-
                 @using (Html.BeginForm("SignUp", "Login", FormMethod.Post, new { @id = "SignUp" }))
                 {
                     @Html.AntiForgeryToken()
