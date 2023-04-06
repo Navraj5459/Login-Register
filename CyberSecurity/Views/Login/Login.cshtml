@@ -20,54 +20,62 @@
         }
     }
 }
-
-<div class="authentication-wrapper authentication-basic container-p-y">
-    <div class="authentication-inner">
-        <!-- Register -->
-        <div class="card">
-            <div class="card-body">
-                <!-- Logo -->
-                <div class="app-brand justify-content-center">
-                    <p class="app-brand-link flex-column">
-                        <span class="app-brand-logo demo">
-                            <img src="~/image/logo/logo.jpg" alt="" />
-                        </span>
-                        <span class="app-brand-text demo text-body fw-bolder">Login</span>
-                    </p>
-                </div>
-                <!-- /Logo -->
-                @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @id = "Login" }))
-                {
-                    @Html.AntiForgeryToken()
-                    <div class="mb-3">
-                        @Html.LabelFor(x=>x.UserName, new{@class="form-label"})
-                        @Html.TextBoxFor(x=>x.UserName,new{@class="form-control", @placeholder="Username", @required="required"})
-                    </div>
-                    <div class="mb-3 form-password-toggle">
-                        <div class="d-flex justify-content-between">
-                            @Html.LabelFor(x=>x.Password, new{@class="form-label"})
-                        </div>
-                        <div class="input-group input-group-merge">
-                            @Html.TextBoxFor(x=>x.Password,new{@type="password", @class="form-control", @placeholder="Password", @required="required"})
-                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
-                            @Html.ValidationMessageFor(x=>x.Password)
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <button class="btn btn-primary d-grid w-100" type="submit" id="btnSubmit">Sign in</button>
-                    </div>
-                }
-
-                <p class="text-center">
-                    <span>New on our platform?</span>
-                    <a href="/Login/SignUp">
-                        <span>Create an account</span>
-                    </a>
+<style>
+    .authentication-inner .authentication-bg {
+        background-color: #fff;
+    }
+</style>
+<div class="authentication-inner row m-0">
+    <!-- /Left Text -->
+    <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center p-5">
+        <div class="w-100 d-flex justify-content-center">
+            <img src="~/image/default/support.png" class="img-fluid" alt="Login image" width="700" />
+        </div>
+    </div>
+    <!-- /Left Text -->
+    <!-- Login -->
+    <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
+        <div class="w-px-400 mx-auto">
+            <!-- Logo -->
+            <div class="app-brand justify-content-center">
+                <p class="app-brand-link flex-column">
+                    <span class="app-brand-logo demo">
+                        <img src="~/image/logo/logo.jpg" alt="" />
+                    </span>
+                    <span class="app-brand-text demo text-body fw-bolder">Login</span>
                 </p>
             </div>
+            <!-- /Logo -->
+            @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @id = "Login" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    @Html.LabelFor(x=>x.UserName, new{@class="form-label"})
+                    @Html.TextBoxFor(x=>x.UserName,new{@class="form-control", @placeholder="Username", @required="required"})
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    <div class="d-flex justify-content-between">
+                        @Html.LabelFor(x=>x.Password, new{@class="form-label"})
+                    </div>
+                    <div class="input-group input-group-merge">
+                        @Html.TextBoxFor(x=>x.Password,new{@type="password", @class="form-control", @placeholder="Password", @required="required"})
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                        @Html.ValidationMessageFor(x=>x.Password)
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary d-grid w-100" type="submit" id="btnSubmit">Sign in</button>
+                </div>
+            }
+            <p class="text-center">
+                <span>New on our platform?</span>
+                <a href="/Login/SignUp">
+                    <span>Create an account</span>
+                </a>
+            </p>
         </div>
-        <!-- /Register -->
     </div>
+    <!-- /Login -->
 </div>
 @section scripts{
     <script>

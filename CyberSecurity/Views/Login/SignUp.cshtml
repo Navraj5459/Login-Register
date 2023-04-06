@@ -18,94 +18,102 @@
         }
     }
 }
-
-<div class="authentication-wrapper authentication-basic container-p-y">
-    <div class="authentication-inner">
-        <!-- Register Card -->
-        <div class="card">
-            <div class="card-body">
-                <!-- Logo -->
-                <div class="app-brand justify-content-center">
-                    <p class="app-brand-link flex-column">
-                        <span class="app-brand-logo demo">
-                            <img src="~/image/logo/logo.jpg" alt=""/>
-                        </span>
-                        <span class="app-brand-text demo text-body fw-bolder">Registration</span>
-                    </p>
-                </div>
-                <!-- /Logo -->
-                @using (Html.BeginForm("SignUp", "Login", FormMethod.Post, new { @id = "SignUp" }))
-                {
-                    @Html.AntiForgeryToken()
-                    <input type="hidden" name="captcha" id="captchaInput" />
-                    <div class="mb-3">
-                        @Html.LabelFor(x => x.UserName, new {@class="form-label"})
-                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", @placeholder = "Username", @required = "required" })
-                        @Html.ValidationMessageFor(x => x.UserName)
-                    </div>
-                    <div class="mb-3 form-password-toggle">
-                        @Html.LabelFor(x => x.Password, new {@class="form-label"})
-                        <div class="input-group input-group-merge">
-                            @Html.TextBoxFor(x => x.Password, new { @type = "password", @class = "form-control", @placeholder = "Password", @required = "required" })
-                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
-                        </div>
-                        @Html.ValidationMessageFor(x => x.Password)
-                    </div>
-                    <div class="mb-3 form-password-toggle">
-                        @Html.LabelFor(x => x.ConfirmPassword, new {@class="form-label"})
-                        <div class="input-group input-group-merge">
-                            @Html.TextBoxFor(x => x.ConfirmPassword, new { @type = "password", @class = "form-control", @placeholder = "Confirm Password", @required = "required" })
-                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
-                        </div>
-                        @Html.ValidationMessageFor(x => x.ConfirmPassword)
-                    </div>
-                    <div class="mb-3">
-                        @Html.LabelFor(x => x.FullName, new {@class="form-label"})
-                        @Html.TextBoxFor(x => x.FullName, new { @class = "form-control", @placeholder = "Full Name", @required = "required" })
-                        @Html.ValidationMessageFor(x => x.FullName)
-                    </div>
-                    <div class="mb-3">
-                        @Html.LabelFor(x => x.Email, new {@class="form-label"})
-                        @Html.TextBoxFor(x => x.Email, new { @type = "email", @class = "form-control", @placeholder = "Email", @required = "required" })
-                        @Html.ValidationMessageFor(x => x.Email)
-                    </div>
-                    <div class="mb-3">
-                        @Html.LabelFor(x => x.MobileNumber, new {@class="form-label"})
-                        @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control", @placeholder = "Mobile Number", @required = "required" })
-                        @Html.ValidationMessageFor(x => x.MobileNumber)
-                    </div>
-                    <div class="mb-3">
-                        <dnt-captcha asp-captcha-generator-max="999999"
-                                 asp-captcha-generator-min="111111"
-                                 asp-captcha-generator-language="English"
-                                 asp-captcha-generator-display-mode="ShowDigits"
-                                 asp-use-relative-urls="true"
-                                 asp-placeholder="Enter Captcha"
-                                 asp-validation-error-message="Please enter the security code."
-                                 asp-font-name="Tahoma"
-                                 asp-font-size="20"
-                                 asp-fore-color="#333333"
-                                 asp-back-color="#ccc"
-                                 asp-text-box-class="text-box form-control"
-                                 asp-text-box-template="<span class='input-group-prepend'><span class='form-group-text'></span></span>{0}"
-                                 asp-validation-message-class="text-danger"
-                                 asp-refresh-button-class="fas fa-redo btn-sm"
-                                 asp-use-noise="false" />
-                    </div>
-                    <button class="btn btn-primary d-grid w-100" id="btnSubmit">Sign up</button>
-                }
-                <p class="text-center">
-                    <span>Already have an account?</span>
-                    <a href="/Login/Login">
-                        <span>Sign in instead</span>
-                    </a>
+<style>
+    .authentication-inner .authentication-bg {
+        background-color: #fff;
+    }
+</style>
+<div class="authentication-inner row m-0">
+    <!-- /Left Text -->
+    <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center p-5">
+        <div class="w-100 d-flex justify-content-center">
+            <img src="~/image/default/support.png" class="img-fluid" alt="Login image" width="700" />
+        </div>
+    </div>
+    <!-- /Left Text -->
+    <!-- Login -->
+    <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
+        <div class="w-px-400 mx-auto">
+            <!-- Logo -->
+            <div class="app-brand justify-content-center">
+                <p class="app-brand-link flex-column">
+                    <span class="app-brand-logo demo">
+                        <img src="~/image/logo/logo.jpg" alt="" />
+                    </span>
+                    <span class="app-brand-text demo text-body fw-bolder">Login</span>
                 </p>
             </div>
+            <!-- /Logo -->
+            @using (Html.BeginForm("SignUp", "Login", FormMethod.Post, new { @id = "SignUp" }))
+            {
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="captcha" id="captchaInput" />
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.UserName, new {@class="form-label"})
+                    @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", @placeholder = "Username", @required = "required" })
+                    @Html.ValidationMessageFor(x => x.UserName)
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    @Html.LabelFor(x => x.Password, new {@class="form-label"})
+                    <div class="input-group input-group-merge">
+                        @Html.TextBoxFor(x => x.Password, new { @type = "password", @class = "form-control", @placeholder = "Password", @required = "required" })
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Password)
+                </div>
+                <div class="mb-3 form-password-toggle">
+                    @Html.LabelFor(x => x.ConfirmPassword, new {@class="form-label"})
+                    <div class="input-group input-group-merge">
+                        @Html.TextBoxFor(x => x.ConfirmPassword, new { @type = "password", @class = "form-control", @placeholder = "Confirm Password", @required = "required" })
+                        <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                    </div>
+                    @Html.ValidationMessageFor(x => x.ConfirmPassword)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.FullName, new {@class="form-label"})
+                    @Html.TextBoxFor(x => x.FullName, new { @class = "form-control", @placeholder = "Full Name", @required = "required" })
+                    @Html.ValidationMessageFor(x => x.FullName)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.Email, new {@class="form-label"})
+                    @Html.TextBoxFor(x => x.Email, new { @type = "email", @class = "form-control", @placeholder = "Email", @required = "required" })
+                    @Html.ValidationMessageFor(x => x.Email)
+                </div>
+                <div class="mb-3">
+                    @Html.LabelFor(x => x.MobileNumber, new {@class="form-label"})
+                    @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control", @placeholder = "Mobile Number", @required = "required" })
+                    @Html.ValidationMessageFor(x => x.MobileNumber)
+                </div>
+                <div class="mb-3">
+                    <dnt-captcha asp-captcha-generator-max="999999"
+                             asp-captcha-generator-min="111111"
+                             asp-captcha-generator-language="English"
+                             asp-captcha-generator-display-mode="ShowDigits"
+                             asp-use-relative-urls="true"
+                             asp-placeholder="Enter Captcha"
+                             asp-validation-error-message="Please enter the security code."
+                             asp-font-name="Tahoma"
+                             asp-font-size="20"
+                             asp-fore-color="#333333"
+                             asp-back-color="#ccc"
+                             asp-text-box-class="text-box form-control"
+                             asp-text-box-template="<span class='input-group-prepend'><span class='form-group-text'></span></span>{0}"
+                             asp-validation-message-class="text-danger"
+                             asp-refresh-button-class="fas fa-redo btn-sm"
+                             asp-use-noise="false" />
+                </div>
+                <button class="btn btn-primary d-grid w-100" id="btnSubmit">Sign up</button>
+            }
+            <p class="text-center">
+                <span>Already have an account?</span>
+                <a href="/Login/Login">
+                    <span>Sign in instead</span>
+                </a>
+            </p>
         </div>
-        <!-- Register Card -->
     </div>
+    <!-- /Login -->
 </div>
-
 @section scripts{
 <script src="~/js/SignUp.js"></script>
 <script>
